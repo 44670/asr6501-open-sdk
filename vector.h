@@ -100,7 +100,7 @@ void null_handler(void);
 void __attribute__ ((weak)) reset_handler(void)
 {
 	volatile unsigned *src, *dest;
-	funcp_t *fp;
+	//funcp_t *fp;
 
 	for (src = &_data_loadaddr, dest = &_data;
 		dest < &_edata;

@@ -1,11 +1,4 @@
-/*
- * Generic linker script that works for ~all TI devices
- * ~all TI devices have flash at 0x0 and at least 8K
- * ~all TI devices have ram at 0x200000000 and at least 4K
- *
- * This is enough for miniblink, but if you try and copy this to your own
- * projects, "You're gonna have a bad day"
- */
+
 
 MEMORY
 {
